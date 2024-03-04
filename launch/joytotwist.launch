@@ -1,0 +1,11 @@
+<launch>
+  <node name="joy_node" pkg="joy" type="joy_node" />
+  <node name="basic_twist_publisher" pkg="controllertwist" type="basic_twist_publisher">
+  </node>
+  
+  <!--<node name="serial_node"        pkg="rosserial_python"      type="serial_node.py">
+	<param name="port"              type="string"               value="/dev/teensy"/>
+	<param name="baud"              type="int"                  value="57600"/>
+	</node>-->
+
+</launch>
